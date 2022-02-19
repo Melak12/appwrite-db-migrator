@@ -6,6 +6,14 @@ An automation script to create appwrite collections and attributes using node js
 npm install
 ```
 
+### add environment virables
+```
+create .env file in the root directory with the following variables: 
+APPWRITE_API_KEY
+APPWRITE_PROJECT_ID
+APPWRITE_API_ENDPOINT
+```
+
 ### run the migration script
 ```
 npm run migrate
