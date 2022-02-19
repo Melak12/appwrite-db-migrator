@@ -1,0 +1,94 @@
+{
+    "collections": [
+      {
+        "id": "categories",
+        "name": "Categories",
+        "$permissions": {
+          "read": ["role:all"],
+          "write": []
+        },
+        "attributes": [
+          {
+            "key": "name",
+            "size": 50,
+            "type": "text",
+            "default": "",
+            "required": true,
+            "array": false
+          },
+          {
+            "key": "logo",
+            "type": "url",
+            "default": "",
+            "required": false,
+            "array": false
+          },
+          {
+            "key": "remark",
+            "size": 500,
+            "type": "text",
+            "default": null,
+            "required": false,
+            "array": true
+          }
+        ]
+      },
+      {
+        "id": "channels",
+        "name": "Channels",
+          "$permissions": {
+            "read": ["role:all"],
+            "write": []
+          },
+          "attributes": [
+            {
+              "key": "name",
+              "size": 50,
+              "type": "text",
+              "default": "",
+              "required": true,
+              "array": false
+            },
+            {
+              "key": "type",
+              "type": "enum",
+              "elements": [],
+              "default": null,
+              "required": false,
+              "array": false
+            },
+            {
+              "key": "logo",
+              "type": "url",
+              "default": "",
+              "required": false,
+              "array": false
+            },
+            {
+              "key": "description",
+              "size": 500,
+              "type": "text",
+              "default": null,
+              "required": false,
+              "array": false
+            },
+            {
+              "key": "rating",
+              "type": "integer",
+              "default": 0,
+              "required": false,
+              "array": false
+            },
+            {
+              "key": "tags",
+              "size": 15,
+              "type": "text",
+              "default": null,
+              "required": false,
+              "array": true
+            }
+          ]
+        }
+    ]
+  }
+  

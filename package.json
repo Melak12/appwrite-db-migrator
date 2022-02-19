@@ -1,0 +1,27 @@
+{
+  "name": "appwrite-db-migrator",
+  "version": "0.0.2",
+  "description": "automation script to mimic 'code-first' approach to migrate appwrite database",
+  "main": "migrate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "node migrate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Melak12/appwrite-db-migrator.git"
+  },
+  "keywords": [
+    "appwrite"
+  ],
+  "author": "Melake Wubshet",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Melak12/appwrite-db-migrator/issues"
+  },
+  "homepage": "https://github.com/Melak12/appwrite-db-migrator#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "node-appwrite": "^4.0.2"
+  }
+}
